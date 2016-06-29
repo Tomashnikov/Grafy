@@ -1,0 +1,55 @@
+﻿Build started 2016-05-11 12:28:50.
+     1>Project "C:\Users\Tomasz\Desktop\grafy\grafy\grafy.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\grafy.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\grafy.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Graf.cpp grafy.cpp Kolejka.cpp Krawedz.cpp Lista.cpp Macierz.cpp Pomiar.cpp Wierzcholek.cpp Zbior.cpp
+         Graf.cpp
+         grafy.cpp
+     1>grafy.cpp(334): warning C4018: '<' : signed/unsigned mismatch
+     1>grafy.cpp(335): warning C4018: '<' : signed/unsigned mismatch
+     1>grafy.cpp(336): warning C4018: '<' : signed/unsigned mismatch
+     1>grafy.cpp(337): warning C4018: '<' : signed/unsigned mismatch
+     1>grafy.cpp(388): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>grafy.cpp(401): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>grafy.cpp(453): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>grafy.cpp(466): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Kolejka.cpp
+     1>Kolejka.cpp(141): warning C4129: 'p' : unrecognized character escape sequence
+     1>Kolejka.cpp(146): warning C4129: 'k' : unrecognized character escape sequence
+         Krawedz.cpp
+         Lista.cpp
+     1>Lista.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+     1>Lista.cpp(22): warning C4018: '<' : signed/unsigned mismatch
+     1>Lista.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+         Macierz.cpp
+     1>Macierz.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+     1>Macierz.cpp(15): warning C4018: '<' : signed/unsigned mismatch
+     1>Macierz.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+     1>Macierz.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+     1>Macierz.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+     1>Macierz.cpp(61): warning C4018: '<' : signed/unsigned mismatch
+     1>Macierz.cpp(69): warning C4018: '>=' : signed/unsigned mismatch
+     1>Macierz.cpp(73): warning C4018: '<' : signed/unsigned mismatch
+         Pomiar.cpp
+         Wierzcholek.cpp
+         Zbior.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tomasz\Desktop\grafy\Release\grafy.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Tomasz\Desktop\grafy\Release\grafy.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tomasz\Desktop\grafy\Release\grafy.lib" /MACHINE:X86 /SAFESEH Release\Graf.obj
+         Release\grafy.obj
+         Release\Kolejka.obj
+         Release\Krawedz.obj
+         Release\Lista.obj
+         Release\Macierz.obj
+         Release\Pomiar.obj
+         Release\stdafx.obj
+         Release\Wierzcholek.obj
+         Release\Zbior.obj
+         Generating code
+         Finished generating code
+         grafy.vcxproj -> C:\Users\Tomasz\Desktop\grafy\Release\grafy.exe
+     1>Done Building Project "C:\Users\Tomasz\Desktop\grafy\grafy\grafy.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.83
